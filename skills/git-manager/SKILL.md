@@ -57,14 +57,14 @@ except:
 
 先把workspace的章节同步到备份仓库：
 ```bash
-BACKUP_DIR=~/IronPen
+BACKUP_DIR=/home/gem/IronPen
 mkdir -p $BACKUP_DIR/chapters/chapter_X
 cp ./chapters/chapter_X/第X章.md $BACKUP_DIR/chapters/chapter_X/第X章.md
 ```
 
 在备份仓库里commit：
 ```bash
-cd ~/IronPen
+cd /home/gem/IronPen
 git add chapters/chapter_X/第X章.md
 git commit -m "第X章 第N轮 得分Y"
 cd -
@@ -76,12 +76,12 @@ cd -
 
 回滚备份仓库到上一版本：
 ```bash
-cd ~/IronPen && git reset --hard HEAD~1 && cd -
+cd /home/gem/IronPen && git reset --hard HEAD~1 && cd -
 ```
 
 从备份仓库恢复章节文件到workspace：
 ```bash
-cp ~/IronPen/chapters/chapter_X/第X章.md ./chapters/chapter_X/第X章.md
+cp /home/gem/IronPen/chapters/chapter_X/第X章.md ./chapters/chapter_X/第X章.md
 ```
 
 重新执行adversarial-edit → reader-panel → anti-slop → 回到Step 1重新评分。

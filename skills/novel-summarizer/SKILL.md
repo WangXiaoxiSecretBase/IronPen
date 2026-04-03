@@ -81,13 +81,13 @@ EOF
 
 **Step 7：同步到备份仓库并push**
 ```bash
-WORKSPACE_DIR=~/workspace/agent/workspace/出狱觉醒医武双修
-BACKUP_DIR=~/IronPen/出狱觉醒医武双修
+WORKSPACE_DIR=/home/gem/workspace/agent/workspace
+BACKUP_DIR=/home/gem/IronPen
 
 rsync -av $WORKSPACE_DIR/chapters/ $BACKUP_DIR/chapters/
 rsync -av $WORKSPACE_DIR/foundation/ $BACKUP_DIR/foundation/
 
-cd ~/IronPen
+cd /home/gem/IronPen
 git add .
 git commit -m "第X章完成，全量同步"
 git push
