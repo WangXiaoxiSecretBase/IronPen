@@ -86,20 +86,19 @@ novel-summarizer
 │   ├── SOUL.md                     ← 铁笔先生人格
 │   ├── AGENTS.md                   ← 启动序列
 │   ├── HEARTBEAT.md                ← 每日检查清单
-│   └── 出狱觉醒医武双修/
-│       ├── foundation/             ← 设定文件
-│       │   ├── STYLE-GUIDE.md      ← 写作规则（AuthorClaw 第二层）
-│       │   ├── VOICE-PROFILE.md    ← 文风指纹（AuthorClaw 第三层）
-│       │   ├── canon.md            ← 硬设定数据库（Novelcrafter Codex）
-│       │   ├── characters.md       ← 角色 Codex 追踪表
-│       │   ├── outline.md          ← 故事大纲（三卷）
-│       │   ├── state.md            ← 当前进度
-│       │   ├── world.md            ← 世界观+系统等级体系
-│       │   ├── anti_slop_zh.md     ← 中文禁用词表（Tier1-5）
-│       │   └── anti_patterns_zh.md ← 结构反模式库（28种）
-│       └── chapters/               ← 生成的章节
-│           ├── beats_第X章.md      ← 节拍文件
-│           └── 第X章.md            ← 正文文件
+│   ├── foundation/                 ← 设定文件
+│   │   ├── STYLE-GUIDE.md          ← 写作规则（AuthorClaw 第二层）
+│   │   ├── VOICE-PROFILE.md        ← 文风指纹（AuthorClaw 第三层）
+│   │   ├── canon.md                ← 硬设定数据库（Novelcrafter Codex）
+│   │   ├── characters.md           ← 角色 Codex 追踪表
+│   │   ├── outline.md              ← 故事大纲（三卷）
+│   │   ├── state.md                ← 当前进度
+│   │   ├── world.md                ← 世界观+系统等级体系
+│   │   ├── anti_slop_zh.md         ← 中文禁用词表（Tier1-5）
+│   │   └── anti_patterns_zh.md     ← 结构反模式库（28种）
+│   └── chapters/                   ← 生成的章节
+│       ├── beats_第X章.md          ← 节拍文件
+│       └── 第X章.md                ← 正文文件
 └── skills/                         ← 7 个写作 skill
     ├── novel-planner/SKILL.md
     ├── novel-generator/SKILL.md
@@ -110,9 +109,8 @@ novel-summarizer
     └── novel-summarizer/SKILL.md
 
 ~/IronPen/                          ← GitHub 备份仓库
-├── 出狱觉醒医武双修/
-│   ├── chapters/
-│   └── foundation/
+├── foundation/
+├── chapters/
 ├── skills/
 └── README.md
 ```
